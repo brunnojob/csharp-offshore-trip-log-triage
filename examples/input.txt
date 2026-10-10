@@ -1,0 +1,5 @@
+0,pump-A,POWER_LOSS,e1
+0.05,pump-A,TRIP,e2
+1,pump-A,LOW_FLOW,e3
+20,pump-A,RESET,e4
+21,pump-B,OVERTEMP,e5
