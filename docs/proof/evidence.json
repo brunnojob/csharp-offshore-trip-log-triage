@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "repository": "brunnojob/csharp-offshore-trip-log-triage",
-  "source_commit": "d62e350e935a397fc2d3b01282b85b6e93cf252d",
-  "generated_at": "2026-10-10T02:35:54.628042+00:00",
-  "run_url": "https://github.com/brunnojob/csharp-offshore-trip-log-triage/actions/runs/38017538189",
+  "source_commit": "1a4f9d7fa0d0be33939251d29f5d79176de4298a",
+  "generated_at": "2026-10-10T02:44:05.197590+00:00",
+  "run_url": "https://github.com/brunnojob/csharp-offshore-trip-log-triage/actions/runs/38018028166",
   "inputs_sha256": {
     ".proof/scenarios.json": "5940a663648a2ac3afc57c48ed727749e76624630a1d2951892d30775d2d896a",
     "examples/input.txt": "833f8042bad55ba0fcf64c6b5a4b9ed7feef64f03b944b6349aa75bef3aff62e"
@@ -23,9 +23,9 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 12.574,
-      "output": "  Determining projects to restore...\n  Restored /home/runner/work/csharp-offshore-trip-log-triage/csharp-offshore-trip-log-triage/Offshore.csproj (in 63 ms).\n  Offshore -> /home/runner/work/csharp-offshore-trip-log-triage/csharp-offshore-trip-log-triage/bin/Debug/net8.0/Offshore.dll\n\nBuild succeeded.\n    0 Warning(s)\n    0 Error(s)\n\nTime Elapsed 00:00:05.94\nTests passed\n{\"Asset\":\"pump-A\",\"Start\":0,\"Restored\":20,\"Causes\":[\"POWER_LOSS\",\"TRIP\"]}\n{\"Asset\":\"pump-B\",\"Start\":21,\"Restored\":null,\"Causes\":[\"OVERTEMP\"]}\n",
-      "output_sha256": "c016734c8dd248e021621f6b86c46a5f5c1ed8bef7eb1cd4bc3fea37802405d0"
+      "seconds": 17.591,
+      "output": "  Determining projects to restore...\n  Restored /home/runner/work/csharp-offshore-trip-log-triage/csharp-offshore-trip-log-triage/Offshore.csproj (in 169 ms).\n  Offshore -> /home/runner/work/csharp-offshore-trip-log-triage/csharp-offshore-trip-log-triage/bin/Debug/net8.0/Offshore.dll\n\nBuild succeeded.\n    0 Warning(s)\n    0 Error(s)\n\nTime Elapsed 00:00:08.13\nTests passed\n{\"Asset\":\"pump-A\",\"Start\":0,\"Restored\":20,\"Causes\":[\"POWER_LOSS\",\"TRIP\"]}\n{\"Asset\":\"pump-B\",\"Start\":21,\"Restored\":null,\"Causes\":[\"OVERTEMP\"]}\n",
+      "output_sha256": "995af84fe56e297bc778ae5e012aca33af278af202496d81510c43ad8b88b67d"
     },
     {
       "display": true,
@@ -39,7 +39,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 0.552,
+      "seconds": 0.602,
       "output": "{\"Asset\":\"pump-A\",\"Start\":0,\"Restored\":20,\"Causes\":[\"POWER_LOSS\",\"TRIP\"]}\n{\"Asset\":\"pump-B\",\"Start\":21,\"Restored\":null,\"Causes\":[\"OVERTEMP\"]}\n",
       "output_sha256": "6bbeec3240f941b76dcbdc60b8c5fb046e14038abd899044350c298ad9840284"
     },
@@ -55,7 +55,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.551,
+      "seconds": 0.602,
       "output": "Missing input\n",
       "output_sha256": "59dde097c155045b6510b44b5d0ee86176974b3476c8b96718ac676f66134e97"
     },
@@ -71,7 +71,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.501,
+      "seconds": 0.602,
       "output": "Invalid CSV row\n",
       "output_sha256": "64aaf8a3f81772044320e6481a9fe33ac80bfdb41f6deb590512cd62c2cd30b7"
     },
@@ -104,7 +104,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.502,
+      "seconds": 0.602,
       "output": "Input record too large\n",
       "output_sha256": "45eb187fdae97f09b79c4bcd5c03d9b942872125e5fb5b6a83011b36f8d62333"
     }
