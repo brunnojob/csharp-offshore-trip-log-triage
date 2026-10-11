@@ -1,5 +1,7 @@
 # csharp-offshore-trip-log-triage
 
+[View execution evidence](https://brunnojob.github.io/devstart-lab/proofs/csharp-offshore-trip-log-triage/)
+
 Reconstruct first-out trips and calculate restoration times from equipment event logs.
 
 ```sh
